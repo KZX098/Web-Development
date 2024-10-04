@@ -1,0 +1,58 @@
+.box1{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    /* margin: auto; */
+    background-color: red;
+    border-radius: 100%;
+    text-align: center;
+    /* margin-right: 200px; */
+
+    animation: left 3s 1; /*animation_name, animation_time, animation_iteration_count*/
+    /* animation-timing-function: ease-in-out; */
+    
+}
+@keyframes left{
+    0%{
+        /* background-color: red; */
+        transform: translate(0px,0px);
+        /* transform: scale(0.3); */
+    }
+    50%{
+        /* background-color: green; */
+        transform: translate(200px,200px);
+        /* transform: scale(1); */
+    }
+    100%{
+        /* background-color: blue; */
+        transform: translate(400px,0px);
+        /* transform: scale(3.0); */
+    }
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    /* margin: auto; */
+    background-color: green;
+    border-radius: 100%;
+    text-align: center;
+    /* margin-left:  500px; */
+    animation: right 3s 1;
+}
+@keyframes right{
+    0%{
+        /* background-color: red; */
+        transform: translate(300px,0px);
+        /* transform: scale(0.3); */
+    }
+    50%{
+        /* background-color: green; */
+        transform: translate(100px,100px);
+        /* transform: scale(1); */
+    }
+    100%{
+        /* background-color: blue; */
+        transform: translate(-100px,0px);
+        /* transform: scale(3.0); */
+    }
+}

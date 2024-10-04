@@ -1,0 +1,80 @@
+/* color styling in css */
+body{
+    background-color: rgb(162, 143, 186);
+}
+.heading{
+    background-color: #c9622a;
+    width: 30%;
+    height: 100px;
+    /* margin: 100px,300px,30px,50px; TRBL */
+    margin: 100px 200px; /* vertical horizontal */
+    /* margin: 30px; */
+    /* margin-left: 50px; */
+    padding:30px ;
+    padding-left: 30%;
+
+}
+.para{
+    background-color: rgba(51, 170, 51, 0.3);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0 auto, 0 auto;
+}
+/* dimension */
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    /* font size:x-large; */
+     font-size: 2em; /*1em=16px */
+     /* font size:2.25rem; */
+     border-radius: 50px;
+     text-align: center;
+     padding-top: 5%;
+}
+/* .first{
+    width:20px;
+    height:20px;
+ } */
+img{
+    width: 150px;
+    height: 150px;
+    border: 10px solid blue; /*width style color*/
+    border-radius: 50%;
+}
+/* display and position */
+h3{
+    display: inline;
+}
+span{
+    display: inline-block;
+    width: 80px; /*width will only work for block display*/
+}
+div{
+    /* display: inline-block; */
+    width: 100px;
+    height: 100px;
+}
+*{
+    margin: 0px;
+}
+.Bbox1{
+    background-color: red;
+    /* position: fixed; */
+}
+
+.Bbox2{
+    background-color: green;
+    position: absolute; /*will not impact any other item*/
+    /* margin-block-end: -50px; */
+}
+
+.Bbox3{
+    background-color: blue;
+    position: relative;
+    /* bottom: 30px; property for relative 
+    left: 50px; */
+    margin-block-start: 50px;
+}

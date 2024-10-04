@@ -1,0 +1,21 @@
+# git-scm.com
+
+#first tym(for initializing repo)
+git init
+
+git status
+git add .(to stage all changes)
+
+#first tym
+git config --global user.name "Harshita-Jaiswal-HJ"
+git config --global user.email ""
+
+git commit -m "Your message" (to commit all staged changes)
+
+
+#Daily commands
+git add .
+git commit -m "daily commit"
+git push origin master
+
+git clone path_name  (at the terminal)"To copy the repository"
